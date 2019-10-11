@@ -9,13 +9,18 @@ public class EvanWorkplace {
 
     public static void pickRace(){
 
-        String playerRace;
+        String playerRace = "empty";
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Pick your characters race. >>>");
-        playerRace = input.toString();
-        System.out.println("your race is " + playerRace);
+        do
+        {
+            System.out.println("Pick your characters race. >>>" +
+                    "");
+            playerRace = input.next();
+
+        }while(playerRace == "empty");
+
     }
 
     public static void pickClass(){
