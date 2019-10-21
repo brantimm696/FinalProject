@@ -6,7 +6,7 @@
 		
 		public static void main(String[] args) {
 			JFrame frame = new JFrame();
-			  ImageIcon icon = new ImageIcon("bone goblin.png");
+			  ImageIcon icon = new ImageIcon("bone goblin 2.png");
 			  JLabel label = new JLabel(icon);
 			  frame.add(label);
 			  frame.setDefaultCloseOperation
